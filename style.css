@@ -589,6 +589,26 @@ height:250px;
 }
 }
 
+@media(max-width:768px){
+
+    .timeline::before{
+        left:20px;
+    }
+
+    .timeline-item{
+        width:100%;
+        left:0 !important;
+        padding-left:60px;
+        padding-right:10px;
+        text-align:left !important;
+    }
+
+    .timeline-item::before{
+        left:10px !important;
+    }
+
+}
+
 /* =========================
    BETTER MOBILE RESPONSIVE
 ========================= */
